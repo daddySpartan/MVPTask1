@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/mvptask1-ashraf-server/databases/MVPTask1-Ashraf-database",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:SqlDB",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
