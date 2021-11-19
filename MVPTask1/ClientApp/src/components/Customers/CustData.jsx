@@ -5,7 +5,6 @@ import axios from "axios";
 function CustData(props) {
   const { option, open, openCustModal, fetchCust, cId, cdata1, cdata2} = props;
 
-  //const [cid, setCID] = useState(cId);
   const [cname, setCname] = useState(cdata1);
   const [caddress, setCaddress] = useState(cdata2);
 
@@ -68,8 +67,7 @@ function CustData(props) {
               <Form.Field>
                 <label>Name</label>
                 <input 
-                  placeholder={cdata1}
-             
+                  placeholder={cdata1}             
                   onChange = { (e)  => setCname(e.target.value)}/>
               </Form.Field>
               <Form.Field>
